@@ -20,4 +20,11 @@ Lista 03
 - Funções MIN e MAX
 - Função AVG
 
+Lista 04
+- GROUP BY
+- GROUP BY + Order By
+- GROUP BY + Where
+- GROUP BY + Having
+- Where vs Having
+
 Obs: os exercícios partiram do curso da Hashtag Treinamentos
