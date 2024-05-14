@@ -11,7 +11,7 @@ ORDER BY UnitPrice DESC, Weight DESC, AvailableForSaleDate ASC
 ----------------------------------------------------------------------------------------------------------
 
 -- Exercício 03
--- R letra A, B e C:
+-- Resposta letra A, B e C:
 SELECT 
 	ProductName AS 'Nome do Produto', 
 	Weight AS 'Peso' 
@@ -22,7 +22,7 @@ ORDER BY Peso DESC
 ----------------------------------------------------------------------------------------------------------
 
 -- Exercício 04
--- R letra A, B e C:
+-- Resposta letra A, B e C:
 SELECT 
 	StoreName AS 'Nome da Loja', 
 	OpenDate AS 'Data de Abertura', 
@@ -42,7 +42,7 @@ WHERE BrandName = 'Litware' AND ProductName LIKE '%Home Theater%' AND AvailableF
 ----------------------------------------------------------------------------------------------------------
 
 -- Exercício 06
--- R letra A e B:
+-- Resposta letra A e B:
 SELECT
 	*
 FROM
