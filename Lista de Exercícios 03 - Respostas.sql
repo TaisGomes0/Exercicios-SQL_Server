@@ -23,7 +23,7 @@ WHERE Occupation = 'Professional'
 ----------------------------------------------------------------------------------------------------------
 
 -- Exercício 03
--- R letra A:
+-- Resposta letra A:
 SELECT * FROM DimStore
 
 SELECT	
@@ -32,7 +32,7 @@ FROM
 	DimStore
 
 
--- R letra B:
+-- Resposta letra B:
 SELECT TOP (1) 
 	StoreName AS 'Nome da Loja',
 	EmployeeCount AS 'Qtd. Funcionários'
@@ -40,13 +40,13 @@ FROM
 	DimStore
 ORDER BY EmployeeCount DESC
 
--- R letra C:
+-- Resposta letra C:
 SELECT 
 	MIN(Employeecount) AS 'Menor Qtd. Funcionários'
 FROM
 	DimStore
 
--- R letra D:
+-- Resposta letra D:
 SELECT TOP(1)
 	StoreName AS 'Nome da Loja',
 	EmployeeCount AS 'Qtd. Funcionários'
@@ -57,7 +57,7 @@ ORDER BY EmployeeCount ASC
 ----------------------------------------------------------------------------------------------------------
 
 -- Exercício 04
--- R letra A:
+-- Resposta letra A:
 SELECT * FROM DimEmployee
 
 SELECT
@@ -66,7 +66,7 @@ FROM
 	DimEmployee
 WHERE Gender = 'M'
 
--- R letra B:
+-- Resposta letra B:
 SELECT TOP(1)
 	FirstName,
 	HireDate,
@@ -78,7 +78,7 @@ ORDER BY HireDate ASC
 ----------------------------------------------------------------------------------------------------------
 
 -- Exercício 05
--- R letra A:
+-- Resposta letra A:
 SELECT * FROM DimProduct
 
 SELECT
