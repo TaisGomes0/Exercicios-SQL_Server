@@ -1,5 +1,5 @@
 -- Exercício 01
--- R letra A: Ainda há 2.517 produtos cadastrados.
+-- Resposta letra A: Ainda há 2.517 produtos cadastrados.
 SELECT * FROM DimProduct
 
 -- R letra B: O número reduziu para 18.869 clientes na base de controle.
@@ -8,7 +8,7 @@ SELECT * FROM DimCustomer
 ----------------------------------------------------------------------------------------------------------
 
 -- Exercício 02
--- R letra A e B: 
+-- Resposta letra A e B: 
 SELECT 
 	CustomerKey AS 'ID do Cliente', 
 	FirstName AS 'Nome', 
@@ -19,13 +19,13 @@ FROM
 ----------------------------------------------------------------------------------------------------------
 
 -- Exercício 03
--- R letra A:
+-- Resposta letra A:
 Select top(100) * from DimCustomer
 
--- R letra B:
+-- Resposta letra B:
 Select top(20) percent * from DimCustomer
 
--- R letra C e D:
+-- Resposta letra C e D:
 Select top(100) 
 	FirstName as 'Nome',	
 	EmailAddress as 'E-mail', 
